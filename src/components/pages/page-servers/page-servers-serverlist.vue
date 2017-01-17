@@ -10,3 +10,7 @@
 
 <script>
 </script>
+
+<style scoped>
+    border: 1px solid blue;
+</style>
