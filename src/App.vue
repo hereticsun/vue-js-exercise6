@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <page-header></page-header>
+        <app-header></app-header>
         <hr>
         <div class="row">
             <div class="col-xs-12 col-sm-6">
@@ -11,13 +11,13 @@
             </div>
         </div>
         <hr>
-        <page-footer></page-footer>
+        <app-footer></app-footer>
     </div>
 </template>
 
 <script>
-    import ServerList from './components/ServerList.vue';
-    import ServerDetails from './components/ServerDetails.vue';
+    import ServerList from './components/pages/page-servers/page-servers-serverlist.vue';
+    import ServerDetails from './components/pages/page-servers/page-servers-serverdetails.vue';
 
     export default {
         components: {
@@ -28,5 +28,4 @@
 </script>
 
 <style>
-
 </style>
